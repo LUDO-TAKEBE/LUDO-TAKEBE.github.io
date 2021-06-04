@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    
+    margin-left: 150px;
 }
 
 #wrap{
@@ -55,7 +55,9 @@ li.gallery{
 }
 
 #contents{
-    margin-left: 150px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 footer{
