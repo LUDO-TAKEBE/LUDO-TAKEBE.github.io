@@ -38,16 +38,18 @@
 <div id="contents">
     <form action="https://api.staticforms.xyz/submit" method="post">
         <div class="form-input">
-            <label for="field1">Name *</label>
+            <label for="field1">Name *</label> 
+            <br>
             <input type="text" name="name" data-validate="required,Generic" placeholder="Your Name..." required />
         </div>
         <div class="form-input">
             <label for="email">Email Address *</label>
+            <br>
             <input type="email" name="email" data-validate="required,Email,required" placeholder="Your Email Address..." required />
         </div>
-        *メールアドレスは"OO@XX.△△"の形式で入力してください。(@がないと届きません。)
         <div class="form-input">
             <label for="field2">Message *</label>
+            <br>
             <textarea name="message" data-validate="required,Generic" placeholder="Your Message..." required></textarea>
         </div>
         <div class="form-input">

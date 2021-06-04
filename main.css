@@ -64,18 +64,9 @@ body {
     margin-left: 10%;
 }
 
-/*
-form input:focus:invalid {
-  border : tomato 2px solid;
+.form-input{
+    margin: 2% auto;
 }
- 操作中、入力値が正しい場合は、不正エラーを消す 
-form input:focus:valid + .error .invalid {
-  display : none;
-}
-form input:valid:not(:last-child) {
-  border : seagreen 2px solid;
-}
-*/
 
 footer{
 /*    margin-left: 130px;*/
