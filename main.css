@@ -59,7 +59,7 @@ body {
 }
 
 #contents{
-    width: 100%;
+/*    width: 100%;*/
     max-width: 900px;
     margin: 0 auto;
     margin-left: 10%;
@@ -68,8 +68,10 @@ body {
 
 #form{
     width: 100%;
-    margin: auto 5%;
-    max-width: 500px;
+/*    margin: auto 5%;*/
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
 }
 .form-input{
     margin: 2% auto;
