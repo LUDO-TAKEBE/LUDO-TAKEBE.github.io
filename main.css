@@ -4,9 +4,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-body {
-    margin-left: 150px;
-}
 
 #wrap{
 /*    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);*/
@@ -40,7 +37,8 @@ img {
     position: fixed;
     overflow: auto;
 /*    padding: 20px;*/
-    margin: 0 auto 0 0;
+/*    margin: 0 auto 0 0;*/
+    margin-left: -190px;
 }
 
 li.gallery{
@@ -54,6 +52,10 @@ li.gallery{
     margin: 10px 0;
 }
 
+body {
+    margin-left: 130px;
+}
+
 #contents{
     width: 100%;
     max-width: 900px;
@@ -61,7 +63,7 @@ li.gallery{
 }
 
 footer{
-    margin-left: 150px;
+/*    margin-left: 130px;*/
     margin-top: 200px;
 }
 #social{
