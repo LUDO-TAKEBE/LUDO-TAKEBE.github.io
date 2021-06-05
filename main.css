@@ -308,7 +308,8 @@ li.gallery{
 #contents{
     width: 100%;
     margin: 0 auto;
-/*    padding-top: 5%;*/
+    padding-top: 7%;
+    padding-bottom: -7%;
 }
 
 #work{
