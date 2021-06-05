@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<div id="wrap">
 <body>
+<div id="wrap">
+
 <div id="side-menu">
     <div id="side-link">    
         <ul class="page-title">
@@ -26,43 +27,45 @@
 </div>
 
  
-<div id="contents">
-   <h1>contact</h1>
-   
-    <div id="form">
-    <form action="https://api.staticforms.xyz/submit" method="post">
-        <div class="form-input">
-            <label for="field1">Name *</label> 
-            <br>
-            <input type="text" name="name" data-validate="required,Generic" placeholder="Your Name..." required />
+    <div id="contents">
+       <h1>contact</h1>
+
+        <div id="form">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <div class="form-input">
+                <label for="field1">Name *</label> 
+                <br>
+                <input type="text" name="name" data-validate="required,Generic" placeholder="Your Name..." required />
+            </div>
+            <div class="form-input">
+                <label for="email">Email Address *</label>
+                <br>
+                <input type="email" name="email" data-validate="required,Email,required" placeholder="Your Email Address..." required />
+            </div>
+            <div class="form-input">
+                <label for="field2">Message *</label>
+                <br>
+                <textarea name="message" data-validate="required,Generic" placeholder="Your Message..." required></textarea>
+            </div>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="0bcc78d8-0b42-401c-8e11-a2113dad9acf">
+                <input type="hidden" name="subject" value="webからLUDOへのお問い合わせ">
+                <input type="hidden" name="replyTo" value="@">
+                <input type="hidden" name="redirectTo" value="https://ludo-takebe.github.io/contact_post.html">
+                <input type="submit" value="Submit">
+        </form>
         </div>
-        <div class="form-input">
-            <label for="email">Email Address *</label>
-            <br>
-            <input type="email" name="email" data-validate="required,Email,required" placeholder="Your Email Address..." required />
-        </div>
-        <div class="form-input">
-            <label for="field2">Message *</label>
-            <br>
-            <textarea name="message" data-validate="required,Generic" placeholder="Your Message..." required></textarea>
-        </div>
-            <input type="text" name="honeypot" style="display:none">
-            <input type="hidden" name="accessKey" value="0bcc78d8-0b42-401c-8e11-a2113dad9acf">
-            <input type="hidden" name="subject" value="webからLUDOへのお問い合わせ">
-            <input type="hidden" name="replyTo" value="@">
-            <input type="hidden" name="redirectTo" value="https://ludo-takebe.github.io/contact_post.html">
-            <input type="submit" value="Submit">
-    </form>
     </div>
 </div>
-</body>
+
 <footer>
 <div id="copyright">
         <hr>
         <div>(C) 2015- LUDO TAKEBE - All Rights Reserved.</div>
     </div>
 </footer>
-</div>
+
+</body>
 
 <script type="text/javascript">
   // fix for Safari's back/forward cache
