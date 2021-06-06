@@ -84,7 +84,7 @@ li.gallery{
     list-style: none;
 }
 #work a{
-    color: #005;
+    color: #046;
 }
 
 #about{
@@ -155,7 +155,7 @@ footer{
 /*    margin-top: 200px;*/
 }
 #copyright{
-    color: #999;
+    color: #708a99;
     text-align: center;
     width: 100vw;
     left: 0;
