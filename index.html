@@ -135,8 +135,9 @@
         //c = uv.x > 0. ? c: 1. - c;
         //c = 1. - c;
         c = uv.y < 0. ? c: 1. - c;
+        c = c + .1;
 
-        gl_FragColor = vec4(c, 1.);
+        gl_FragColor = vec4(c, 0.5);
     }
 
   </script>
@@ -257,7 +258,7 @@
 
 <footer>
     <div id="copyright">
-        <hr color="#d9e9e9">
+<!--        <hr color="#d9e9e9">-->
         <div>© 2015- LUDO TAKEBE</div>
     </div>
 </footer>
