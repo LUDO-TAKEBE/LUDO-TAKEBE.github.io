@@ -71,7 +71,7 @@ li.gallery{
 }
 
 #work{
-    width: 100%;
+    width: 90%;
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
@@ -325,7 +325,6 @@ li.gallery{
     margin: 1% auto;
 }
 #work a{
-    color: #005;
 }
 
 #about{
