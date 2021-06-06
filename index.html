@@ -135,7 +135,6 @@
         //c = uv.x > 0. ? c: 1. - c;
         //c = 1. - c;
         c = uv.y < 0. ? c: 1. - c;
-        c = c + .1;
 
         gl_FragColor = vec4(c, 0.5);
     }
