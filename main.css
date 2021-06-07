@@ -16,7 +16,7 @@ body{
 /*    font-size: 16px;*/
     line-height: 2;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1100px;
     height: 100%;
     margin: 0 auto;
 /*    padding: 50px 30px 10px;*/
@@ -79,7 +79,7 @@ li.gallery{
 
 #contents{
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 /*    margin-left: 10%;*/
     text-align: center;
@@ -158,8 +158,8 @@ li.gallery{
     margin: 0 auto;
 }
 #sns-svg li svg {
-    width: 6vw;
-    height: 6vw;
+    width: 75%;
+    height: 75%;
     max-width: 122px;
     max-height: 122px;
     fill: #000;
