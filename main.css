@@ -345,6 +345,11 @@ li.gallery{
     padding-top: 7%;
     padding-bottom: -7%;
 }
+    
+.contents_list{
+    width: 95%;
+    margin: 0 auto 5% auto;
+}
 
 #work{
     width: 90%;
