@@ -85,6 +85,12 @@ li.gallery{
     text-align: center;
 }
 
+.contents_list{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 #work{
     width: 90%;
     max-width: 900px;
