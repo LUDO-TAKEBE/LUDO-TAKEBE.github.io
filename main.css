@@ -170,6 +170,13 @@ li.gallery{
     max-height: 122px;
     fill: #000;
 }
+#sns-svg li img {
+    width: 70%;
+    height: 70%;
+    max-width: 122px;
+    max-height: 122px;
+    fill: #000;
+}
 
 #top_foot{
 /*    margin-left: 130px;*/
@@ -417,6 +424,12 @@ li.gallery{
     margin: 0 auto;
 }
 #sns-svg li svg {
+    width:80%;
+    height: 80%;
+    max-width: 100px;
+    max-height: 100px;
+}
+#sns-svg li img {
     width:80%;
     height: 80%;
     max-width: 100px;
