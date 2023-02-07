@@ -67,7 +67,7 @@ header{
 li.gallery{
     list-style: none;
 }
-li.gallery.a{
+li.gallery a{
     color: #000;
     text-decoration: none;
 }
