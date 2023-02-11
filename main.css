@@ -43,7 +43,7 @@ header{
 
 #top_head{
 /*    margin-left: -150px;*/
-    margin-top: -115px;
+    margin-top: -150px;
     margin-bottom: 40px;
     text-align: center;
     width: 100%;
@@ -103,7 +103,7 @@ li.gallery a{
     margin: 0 auto;
 /*    margin-left: 10%;*/
     text-align: center;
-    margin-top: 115px;
+    margin-top: 150px;
 }
 
 .contents_list{
