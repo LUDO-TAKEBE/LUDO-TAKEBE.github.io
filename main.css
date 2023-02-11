@@ -32,9 +32,6 @@ a {
 b, strong {
     font-weight: 600;
 }
-h1{
-    font-size: 2em;
-}
 
 img {
     
@@ -44,9 +41,26 @@ header{
     display: none;
 }
 
+#top_head{
+/*    margin-left: -150px;*/
+    margin-top: -115px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+h1{
+    font-size: 2em;
+    margin: 18px auto 12px auto;
+/*    margin: auto auto 0px auto;*/
+}
+
+
 #wrap {
+/*    margin-top: 115px;*/
     margin-left: 130px;
-    min-height: calc(100vh - 94px);
+    min-height: calc(100vh - 94px - 115px);
     margin-bottom: -60px;
 /*    width: 90%;*/
 /*    max-width: 1400px;*/
@@ -63,6 +77,8 @@ header{
     position: fixed;
     overflow: auto;
     margin-left: -150px;
+    margin-top: -55px;
+/*    margin-top: 115px;*/
 }
 li.gallery{
     list-style: none;
@@ -87,6 +103,7 @@ li.gallery a{
     margin: 0 auto;
 /*    margin-left: 10%;*/
     text-align: center;
+    margin-top: 115px;
 }
 
 .contents_list{
