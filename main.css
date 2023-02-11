@@ -70,7 +70,7 @@ h1{
 /*    position: fixed;*/
 /*    overflow: auto;*/
     margin-left: -150px;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 li.gallery{
     list-style: none;
@@ -339,7 +339,20 @@ header{
     top: 2.8vh;
 }    
 
-
+#top_head{
+/*    margin-left: -150px;*/
+    margin-top: -69px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+    
+h1{
+    font-size: 1.3em;
+    margin: 12px auto 0px auto;
+}
     
 #side-menu{
     display: none;
@@ -352,18 +365,18 @@ li.gallery{
 }
 
 #wrap {
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px - 60px);
     margin: 0 auto -20px;
     width: 100vw;
 }
 
 
-
 #contents{
-    width: 100%;
-    margin: 0 auto;
+    width: 90%;
+/*    margin: 0 auto;*/
     padding-top: 7%;
     padding-bottom: -7%;
+    margin-top: 70px;
 }
     
 .contents_list{
