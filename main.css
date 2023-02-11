@@ -58,7 +58,7 @@ h1{
 
 #wrap {
     margin-left: 130px;
-    min-height: calc(100vh - 94px - 130px);
+    min-height: calc(100vh - 94px - 160px);
     margin-bottom: -60px;
     
 }
