@@ -126,7 +126,31 @@ li.gallery a{
     margin: 0 auto;
 /*    text-align: left;*/
 }
+
 #about_prof{
+    width: 90%;
+    margin: 5% auto;
+    text-align: left;
+}
+
+#half_line{
+    position: relative;
+	height: 1px;
+	border-width: 0;
+	background-image: -webkit-linear-gradient(left,
+	#999 0%,transparent 50%, #999 100%);
+	background-image:         linear-gradient(90deg,
+	#999 0%,transparent 50%, #999 100%);
+}
+
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.4em;
+}
+
+#skills {
     width: 90%;
     margin: 5% auto;
     text-align: left;
@@ -208,6 +232,7 @@ li.gallery a{
     margin: 0 auto;
     
 }
+
 #grad_line{
     position: relative;
 	height: 1px;
@@ -404,6 +429,12 @@ li.gallery{
 /*    text-align: left;*/
 }
 #about_prof{
+    width: 90%;
+    margin: 5% auto;
+    text-align: left;
+}
+
+#skills li{
     width: 90%;
     margin: 5% auto;
     text-align: left;
