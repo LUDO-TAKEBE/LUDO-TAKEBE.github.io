@@ -43,7 +43,7 @@ header{
 
 #top_head{
 /*    margin-left: -150px;*/
-    margin-top: -150px;
+    margin-top: -175px;
     margin-bottom: 40px;
     text-align: center;
     width: 100%;
@@ -95,7 +95,8 @@ li.gallery a{
     margin: 0 auto;
 /*    margin-left: 10%;*/
     text-align: center;
-    margin-top: -170px;
+    margin-top: -200px;
+    position: relative;
 }
 
 .contents_list{
@@ -120,16 +121,43 @@ li.gallery a{
 #work a{
     color: #046;
 }
-
 #about{
     width: 100%;
-    margin: 0 auto;
 /*    text-align: left;*/
+/*    padding-bottom: 50px;*/
+    position: relative;
+    margin: auto;
+}
+
+#about_img img{
+    position: absolute;
+    width: 30%;
+    max-width: 500px;
+    margin-left: -46%;
+}
+
+#about_bio{
+    position: absolute;
+    width: 65%;
+    max-width: 550px;
+    max-height: 500px;
+    margin-left: 37%;
+    text-align: left;
+    font-size: min(1.9vw, 1em);
+    line-height: min(3.0vw, 2.0em);
+    margin-top: min(1.7vw, 20px);
+}
+#about_pos{
+    position: relative;
+    margin-top: min(30vw,320px);;
 }
 
 #about_prof{
+/*    position: absolute;*/
     width: 90%;
     margin: 5% auto;
+    
+/*    padding-top: 30%;*/
     text-align: left;
 }
 
@@ -431,10 +459,25 @@ li.gallery{
     margin: 0 auto;
 /*    text-align: left;*/
 }
+
+#about_bio{
+    position: absolute;
+    width: 65%;
+    max-width: 550px;
+    max-height: 500px;
+    margin-left: 37%;
+    text-align: left;
+    font-size: min(2.5vw, 1em);
+/*    font-size: 8px;*/
+/*    line-height: min(3.0vw, 2.0em);*/
+    line-height: 3vw;
+    margin-top: min(1.7vw, 20px);
+}
 #about_prof{
     width: 90%;
     margin: 5% auto;
     text-align: left;
+    font-size: 3.5vw;
 }
 
 #skills li{
