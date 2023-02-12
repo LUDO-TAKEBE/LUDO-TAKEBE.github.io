@@ -456,7 +456,7 @@ li.gallery{
 
 #about{
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
 /*    text-align: left;*/
 }
 
@@ -471,13 +471,18 @@ li.gallery{
 /*    font-size: 8px;*/
 /*    line-height: min(3.0vw, 2.0em);*/
     line-height: 3vw;
-    margin-top: min(1.7vw, 20px);
+    margin-top: min(3.9vw, 20px);
 }
 #about_prof{
     width: 90%;
     margin: 5% auto;
     text-align: left;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
+}
+    
+#about_pos{
+    position: relative;
+    margin-top: min(40vw,270px);;
 }
 
 #skills li{
