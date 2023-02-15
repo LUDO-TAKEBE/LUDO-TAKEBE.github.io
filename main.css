@@ -114,21 +114,24 @@ li.gallery a{
     max-width: 900px;
     position: absolute;
     opacity: 0;
-    animation: change-img-anim 24s infinite;
+    animation: change-img-anim 20s infinite;
 }
 
 .top_img:nth-of-type(1) {
-    animation: change-img-anim-first 24s infinite;
+    animation: change-img-anim-first 20s infinite;
 	animation-delay: 0s;
 }
 .top_img:nth-of-type(2) {
-	animation-delay: 6s;
+	animation-delay: 4s;
 }
 .top_img:nth-of-type(3) {
-	animation-delay: 12s;
+	animation-delay: 8s;
 }
 .top_img:nth-of-type(4) {
-	animation-delay: 18s;
+	animation-delay: 12s;
+}
+.top_img:nth-of-type(5) {
+	animation-delay: 16s;
 }
 @keyframes change-img-anim-first {
 	0%{ opacity: 1;}
@@ -140,8 +143,8 @@ li.gallery a{
 @keyframes change-img-anim {
 	0%{ opacity: 0;}
 	15%{ opacity: 1;}
-	25%{ opacity: 1;}
-    40%{ opacity: 0;}
+    20%{ opacity: 1;}
+    35%{ opacity: 0;}
 	100%{ opacity: 0;}
 }
 
